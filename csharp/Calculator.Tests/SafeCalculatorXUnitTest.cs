@@ -9,8 +9,8 @@ namespace TestCalculator;
 public class SafeCalculatorXUnitTest
 {
     [Fact]
-    public void TestSomething()
+    public void DoNotThrowWhenAuthorized()
     {
-        Assert.Equal(true, false);
+        // TODO: demonstrate the bug in Calculator.Add()
     }
 }
