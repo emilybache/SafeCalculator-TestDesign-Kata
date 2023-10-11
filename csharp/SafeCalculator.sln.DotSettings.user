@@ -2,6 +2,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2ae1a27e_002D4b8d_002D48d6_002Da4ad_002D3bd64873e2f0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SafeCalculatorNUnitTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::2173A33B-BE40-4949-B6F0-D8C0C7FA0716::net7.0::TestCalculator.SafeCalculatorNUnitTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2173A33B-BE40-4949-B6F0-D8C0C7FA0716::net7.0::TestCalculator.SafeCalculatorXUnitTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3094657e_002D277d_002D4651_002Dae65_002D3f6eb408b3f5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SafeCalculatorNUnitTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
