@@ -1,0 +1,21 @@
+name: build_and_test
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build_and_test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, ubuntu-latest]  # TODO: add windows-latest
+        language: [javascript]  # TODO: add c, csharp, java
+    steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+      - uses: actions/checkout@v3
+      - name: run build_and_test
+        run: |
+          cd ${{ matrix.language }}
+          ./build_and_test.sh | grep 'TODO: implement test'
