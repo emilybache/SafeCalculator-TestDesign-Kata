@@ -8,3 +8,7 @@ install requirements:
 run tests:
 
     PYTHONPATH=src:tests python -m pytest
+
+## Pycharm
+You might need to set the test and src directories:
+- Right click the directory -> Mark Directory as... -> Sources Root
